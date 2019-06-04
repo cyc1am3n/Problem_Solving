@@ -215,6 +215,11 @@
   // 5 6
   ```
 
+>### (extra) unordered_set / unordered_map
+>* `set`과 `map`은 RB 트리로 이루어져 있어서 삽입, 탐색, 삭제 시 **O(logN)** 의 시간이 걸린다.
+>* C++11 부터 나온 `unordered_set`과 `unordered_map`은 해시 함수로 만들어져 정렬이 필요 없고, 빠른 시간 안에 접근을 해야할 때 유용하게 사용할 수 있다.
+>* 그로 인해 접근 시 최소 **O(1)** 의 시간이 걸리며, 최대 **O(N)** 의 시간(모든 원소에 대해 *hash collision*이 발생할 시)이 걸린다.
+>* `#include <unordered_set>`, `#include <unordered_map>` 으로 사용 가능하며, 사용 방법은 `set`, `map`과 동일하다.
 <br />
 
 ### stack [↑](#contents)
