@@ -1,6 +1,26 @@
 # [STL] 6강 강의노트 - algorithm
 
-### count
+>### Contents
+>- [count](#count-)
+>- [find](#find-)
+>- [fill](#fill-)
+>- [reverse](#reverse-)
+>- [rotate](#rotate-)
+>- [swap](#swap-)
+>- [unique](#unique-)
+>- [sort](#sort-)
+>- [stable_sort](#stable_sort-)
+>- [binary_search](#binary_search-)
+>- [lower_bound / upper_bound](#lower_bound--upper_bound-)
+>- [equal_range](#equal_range-)
+>- [min / max](#min--max-)
+>- [minmax](#minmax-)
+>- [min_element / max_element](#min_element--max_element-)
+>- [minmax_element](#minmax_element-)
+>- [next_permutation / prev_permutation](#next_permutation--prev_permutation-)
+<br/>
+
+### count [↑](#contents)
 
 * `count(begin, end, value)`: `[begin, end)` 에 포함되어 있는 원소 중에서 `value`의 개수를 찾는다.
 
@@ -39,7 +59,7 @@
 
 <br />
 
-### find
+### find [↑](#contents)
 
 * `find(begin, end, value)`: `[begin, end)` 에 포함되어 있는 원소 중에서 `value` 의 첫 이터레이터를 반환, 못 찾으면 `end` 를 반환한다.
 
@@ -83,7 +103,7 @@
 
 <br />
 
-### fill
+### fill [↑](#contents)
 
 * `fill(begin, end, value)`: `[begin, end)` 을 `value` 로 채운다.
 
@@ -109,7 +129,7 @@
 
 <br />
 
-### reverse
+### reverse [↑](#contents)
 
 * `reverse(begin, end)`: `[begin, end)`의 순서를 역순으로 만든다.
 
@@ -133,7 +153,7 @@
 
 <br />
 
-### rotate
+### rotate [↑](#contents)
 
 * `rotate(begin, mid, end)`: `[begin, end)` 를 `mid` 기준 왼쪽으로 회전시킨다.
 
@@ -152,17 +172,17 @@
     rotate(a.begin(), a.begin()+1, a.end());
     print(a);
   }
-  
-  // 0 1 2 3 4 5
+  // 1 2 3 4 5 0
   // 2 3 4 5 0 1
   // 3 4 5 0 1 2
   // 4 5 0 1 2 3
   // 5 0 1 2 3 4
+  // 0 1 2 3 4 5
   ```
 
 <br />
 
-### swap
+### swap [↑](#contents)
 
 * `swap(a, b)`: `a`와 `b`에 들어있던 값을 바꾼다.
 
@@ -180,7 +200,7 @@
 
 <br />
 
-### unique
+### unique [↑](#contents)
 
 * `unique(begin, end)`: `unique`는 `[begin, end)` 구간에서 **연속되는** 같은 값을 하나를 제외하고 제거한다.
 
@@ -227,7 +247,7 @@
 
 <br />
 
-### sort
+### sort [↑](#contents)
 
 * `sort(begin, end)`: `[begin, end)`를 `<` 기준으로 정렬한다. (default)
 
@@ -345,7 +365,7 @@
 
 <br />
 
-### stable_sort
+### stable_sort [↑](#contents)
 
 * 정렬하려는 조건이 같은 경우에 `sort` 를 사용하면 기존 순서가 변경되는 경우가 있다.
 * 이 때 순서가 유지되는 정렬 알고리즘을 **Stable Sorting** 이라고 한다.
@@ -354,7 +374,7 @@
 
 <br />
 
-### binary_search
+### binary_search [↑](#contents)
 
 * `binary_search(begin, end, value)`: `[begin, end)`에서 `value`를 찾으면 `true`, 못 찾으면 `false`
 
@@ -383,7 +403,7 @@
 
 <br />
 
-### lower_bound / upper_bound
+### lower_bound / upper_bound [↑](#contents)
 
 * `lower_bound(begin, end, value)`: `[begin, end)` 에서 `value`보다 **작지 않은** 첫 번째 이터레이터
 
@@ -417,14 +437,14 @@
 
 <br />
 
-### equal_range
+### equal_range [↑](#contents)
 
 * `equal_range(begin, end, value)` , `equal_range(begin, end, value, cmp)`
 * `lower_bound`, `upper_bound`를 `pair` 형태로 리턴한다.
 
 <br />
 
-### min / max
+### min / max [↑](#contents)
 
 * `min(a, b)` / `min(a, b, cmp)` / `min(initializer_list)` / `min(initializer_list, cmp)`
 
@@ -466,7 +486,7 @@
 
 <br />
 
-### minmax
+### minmax [↑](#contents)
 
 * `min`과 `max`를 동시에 구할 수 있다.
 
@@ -480,7 +500,7 @@
 
 <br />
 
-### min_element / max_element
+### min_element / max_element [↑](#contents)
 
 * `[begin, end)`에서 최소/최대값의 이터레이터를 구한다.
 
@@ -502,14 +522,14 @@
 
 <br />
 
-### minmax_element
+### minmax_element [↑](#contents)
 
 * `[begin, end)`에서 최소, 최대값의 이터레이터를 구한다.
 * `minmax_element(begin, end)` / `minmax_element(begin, end, cmp)`
 
 <br />
 
-### next_permutation / prev_permutation
+### next_permutation / prev_permutation [↑](#contents)
 
 * `[begin, end)`를 순열이라고 생각했을 때, 사전 순으로 다음/이전에 오는 순열을 만든다.
 
