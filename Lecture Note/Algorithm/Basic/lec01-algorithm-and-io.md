@@ -7,7 +7,7 @@
 >   - [더 중요한 점](#더-중요한-점-)
 >   - [프로그래밍 언어](#프로그래밍-언어-)
 > - [시간 복잡도](#시간-복잡도-)
-> - [입/출력](#입--출력-)
+> - [입/출력](#입-출력-)
 
 ### 알고리즘 [↑](#contents)
 
@@ -103,4 +103,4 @@ for (int i=0; i<n; i++) {
 
 ### 입/출력 [↑](#contents)
 
-- 입/출력의 경우에는 STL [1강]([https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture%20Note/C%20_C%2B%2B_STL/lec02-c%2B%2B.md](https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture Note/C _C%2B%2B_STL/lec02-c%2B%2B.md))과 [2강]([https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture%20Note/C%20_C%2B%2B_STL/lec02-c%2B%2B.md](https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture Note/C _C%2B%2B_STL/lec02-c%2B%2B.md))을 참고하자.
+- 입/출력의 경우에는 STL [1강](https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture%20Note/C%20_C%2B%2B_STL/lec01-c.md)과 [2강](https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture%20Note/C%20_C%2B%2B_STL/lec02-c%2B%2B.md)을 참고하자.
