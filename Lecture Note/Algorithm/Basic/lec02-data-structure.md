@@ -259,7 +259,7 @@ printf("%c", 48);
 // result: A0
 ```
 
-- 다른 문자열 관련 내용은 STL 강의의 [문자열]([https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture%20Note/C%20_C%2B%2B_STL/lec05-string.md](https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture Note/C _C%2B%2B_STL/lec05-string.md)) 을 참고하자.
+- 다른 문자열 관련 내용은 STL 강의의 [문자열](https://github.com/cyc1am3n/Problem_Solving/blob/master/Lecture%20Note/C%20_C%2B%2B_STL/lec05-string.md) 을 참고하자.
 
 #### 예제 1 - ROT13 [↑](#contents)
 
